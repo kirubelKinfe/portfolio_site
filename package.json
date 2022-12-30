@@ -1,12 +1,13 @@
 {
+  "homepage": "https://kirubelKinfe.github.io/portfolio_site",
   "name": "frontend_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@sanity/client": "^2.23.2",
     "@sanity/image-url": "^1.0.1",
-    "node-sass": "^8.0.0",
     "framer-motion": "^6.2.3",
+    "node-sass": "^8.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.6.0",
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
