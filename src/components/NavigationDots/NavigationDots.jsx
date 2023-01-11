@@ -1,4 +1,4 @@
-import React from 'react'
+import './NavigationDots.scss'
 
 const menuList = [
     'home',

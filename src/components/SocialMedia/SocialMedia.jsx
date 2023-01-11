@@ -1,5 +1,6 @@
 import { BsTwitter, BsInstagram } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
+import './SocialMedia.scss'
 
 const SocialMedia = () => {
   return (
