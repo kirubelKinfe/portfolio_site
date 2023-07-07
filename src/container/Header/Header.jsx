@@ -34,7 +34,7 @@ const Header = () => {
           <div className='badge-profile'>
             <img 
               loading='lazy'
-              src="https://firebasestorage.googleapis.com/v0/b/fir-upload-f609a.appspot.com/o/kie.jpg?alt=media&token=9bb867da-855f-4e98-9766-5c9a1bab175a"
+              src="https://avatars.githubusercontent.com/u/87996823?v=4"
               alt="profile"
               className='profile__icon'
             />
